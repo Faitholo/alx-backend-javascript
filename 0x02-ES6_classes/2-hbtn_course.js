@@ -29,7 +29,7 @@ class HolbertonCourse {
   }
 
   set students(students = []) {
-    if (students instanceof Array) {
+    if (typeof students !== 'object') {
       throw TypeError('Students must be an array');
     }
     this._students = students;
