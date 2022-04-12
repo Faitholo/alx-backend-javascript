@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export default function getStudentIdsSum(getListStudents) {
   const myArr = [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
